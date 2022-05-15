@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Encriptador de textos">
+    <meta name="author" content="Agustin Esteban Vermaercke">
+    <title>Encriptador</title>
+    <link rel="icon" href="./img/favicon.png"> 
+    <link rel="stylesheet" href="normalize.css" type="text/css"> 
+    <link rel="stylesheet" href="estilos.css" type="text/css"> 
+</head>
+
+<body>
+    <img src="planetas.jpg" alt="planetas" class="planetas">
+ 
+    <div class="contenedor_todo">
+        
+        <img src="Vector.png" alt="logo azul alura" class="encabezado__logo">
+        <h1 class="encabezado__titulo">Encriptador</h1>
+        <header class="encabezado">
+            
+         
+            
+        </header>
+
+        
+
+        <section class="contenedor1 animacion_contenedor">
+            <textarea class="contenedor1_textoIngreso animacion_contenedor" name="texto" id="textarea" cols="30"
+                rows="10" placeholder="Encripta y desencripta desde el epacio" autofocus></textarea>
+            <div class="informacion">
+                <img src="exclamacion.png" alt="exclamacion" class="informacion__imagen">
+                <p class="informacion__parrafo">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="cont__btn">
+                <button class="btn btn_encriptar" id="encriptar">Encriptar</button>
+                <button class="btn btn_desencriptar" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+       
+
+        <section class="contenedor__resultado animacion_contenedor">
+            <textarea style="display:none;" class="contenedor__resultado__texto" name="texto" id="resultado" cols="30"
+                rows="10" placeholder="Encripta y desencripta por favor"></textarea>
+            <div id="ocultar">
+                <img src="hombreBusca.jpg" alt="hombre espacial" class="hombreEspacial">
+                <h2 class="ocultar__titulo">Ningún mensaje fue encontrado</h2>
+                <p class="ocultar__parrafo">Ingresa el texto que desees encriptar o desencriptar..</p>
+               
+            </div>
+            <div class="cont__btn__copiar">
+                <button class="btn btn_copiar" id="copiar" hidden>Copiar</button>
+            </div>
+        </section>
+
+
+        
+
+        <footer class="contenedor__redes">
+           
+            <p class="contenedor__redes__copy">Copyright &copy;2022</p>
+        </footer>
+    </div>
+</body>
+
+
+
+<script type="text/javascript" src="funcionalidad.js"></script>
+
+</html> 
